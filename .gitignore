@@ -1,0 +1,9 @@
+*.npz
+*.tif
+*.tiff
+*.joblib
+__pycache__/
+*.aux.xml
+.env
+.venv/
+venv/

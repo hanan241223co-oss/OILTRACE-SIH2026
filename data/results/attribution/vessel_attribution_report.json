@@ -1,0 +1,60 @@
+{
+  "spill_origin": [
+    4.035,
+    55.243
+  ],
+  "hindcast_track_points": 49,
+  "real_ais_data_present": false,
+  "provenance_disclaimer": "Real AIS feeds require external NMEA/Spire/AisStream integration. Synthetic records are strictly labeled as SYNTHETIC_TEST_DATA.",
+  "legal_disclaimer": "Attribution ranking represents geometric & kinematic correlation for investigation triage; does not constitute legal proof of liability.",
+  "candidates_ranked": [
+    {
+      "mmsi": 244123000,
+      "vessel_name": "SYNTHETIC_TANKER_ALPHA",
+      "vessel_type": "Crude Oil Tanker",
+      "distance_to_spill_km": 2.1,
+      "distance_to_drift_track_km": 0.73,
+      "sog_knots": 11.4,
+      "cog_degrees": 45.0,
+      "attribution_score": 98.2,
+      "data_provenance": "SYNTHETIC_TEST_DATA",
+      "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 0.7km, Category Crude Oil Tanker, SOG 11.4 kts"
+    },
+    {
+      "mmsi": 219001000,
+      "vessel_name": "SYNTHETIC_CHEM_BETA",
+      "vessel_type": "Chemical Tanker",
+      "distance_to_spill_km": 4.19,
+      "distance_to_drift_track_km": 1.45,
+      "sog_knots": 12.1,
+      "cog_degrees": 50.0,
+      "attribution_score": 96.5,
+      "data_provenance": "SYNTHETIC_TEST_DATA",
+      "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 1.5km, Category Chemical Tanker, SOG 12.1 kts"
+    },
+    {
+      "mmsi": 211987000,
+      "vessel_name": "SYNTHETIC_CARGO_GAMMA",
+      "vessel_type": "General Cargo",
+      "distance_to_spill_km": 8.38,
+      "distance_to_drift_track_km": 8.38,
+      "sog_knots": 13.8,
+      "cog_degrees": 60.0,
+      "attribution_score": 73.6,
+      "data_provenance": "SYNTHETIC_TEST_DATA",
+      "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 8.4km, Category General Cargo, SOG 13.8 kts"
+    },
+    {
+      "mmsi": 257456000,
+      "vessel_name": "SYNTHETIC_SUPPLY_DELTA",
+      "vessel_type": "Offshore Supply",
+      "distance_to_spill_km": 14.64,
+      "distance_to_drift_track_km": 14.64,
+      "sog_knots": 8.2,
+      "cog_degrees": 210.0,
+      "attribution_score": 47.4,
+      "data_provenance": "SYNTHETIC_TEST_DATA",
+      "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 14.6km, Category Offshore Supply, SOG 8.2 kts"
+    }
+  ]
+}

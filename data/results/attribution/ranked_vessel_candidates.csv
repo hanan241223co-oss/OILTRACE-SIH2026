@@ -1,0 +1,5 @@
+mmsi,vessel_name,vessel_type,distance_to_spill_km,distance_to_drift_track_km,sog_knots,cog_degrees,attribution_score,data_provenance,evidence_summary
+244123000,SYNTHETIC_TANKER_ALPHA,Crude Oil Tanker,2.1,0.73,11.4,45.0,98.2,SYNTHETIC_TEST_DATA,"[SYNTHETIC_TEST_DATA] Proximity 0.7km, Category Crude Oil Tanker, SOG 11.4 kts"
+219001000,SYNTHETIC_CHEM_BETA,Chemical Tanker,4.19,1.45,12.1,50.0,96.5,SYNTHETIC_TEST_DATA,"[SYNTHETIC_TEST_DATA] Proximity 1.5km, Category Chemical Tanker, SOG 12.1 kts"
+211987000,SYNTHETIC_CARGO_GAMMA,General Cargo,8.38,8.38,13.8,60.0,73.6,SYNTHETIC_TEST_DATA,"[SYNTHETIC_TEST_DATA] Proximity 8.4km, Category General Cargo, SOG 13.8 kts"
+257456000,SYNTHETIC_SUPPLY_DELTA,Offshore Supply,14.64,14.64,8.2,210.0,47.4,SYNTHETIC_TEST_DATA,"[SYNTHETIC_TEST_DATA] Proximity 14.6km, Category Offshore Supply, SOG 8.2 kts"

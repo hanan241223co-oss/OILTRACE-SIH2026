@@ -1,0 +1,13 @@
+filename,class,image_path,mask_path,dimensions,channels,VV_available,VH_available,georeferenced,valid,notes
+00000.tif,look_alike,D:\OILTRACE\data\images\look_alike\00000.tif,D:\OILTRACE\data\masks\look_alike\00000.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00090.tif,look_alike,D:\OILTRACE\data\images\look_alike\00090.tif,D:\OILTRACE\data\masks\look_alike\00090.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00000.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00000.tif,D:\OILTRACE\data\masks\oil_spill\00000.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00002.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00002.tif,D:\OILTRACE\data\masks\oil_spill\00002.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00003.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00003.tif,D:\OILTRACE\data\masks\oil_spill\00003.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00004.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00004.tif,D:\OILTRACE\data\masks\oil_spill\00004.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00006.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00006.tif,D:\OILTRACE\data\masks\oil_spill\00006.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00007.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00007.tif,D:\OILTRACE\data\masks\oil_spill\00007.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00008.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00008.tif,D:\OILTRACE\data\masks\oil_spill\00008.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00009.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00009.tif,D:\OILTRACE\data\masks\oil_spill\00009.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00010.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00010.tif,D:\OILTRACE\data\masks\oil_spill\00010.tif,2048x2048,2,True,True,True,True,"Verified valid, dual-polarization Sentinel-1 SAR"
+00011.tif,oil_spill,D:\OILTRACE\data\images\oil_spill\Oil\00011.tif,D:\OILTRACE\data\masks\oil_spill\00011.tif,2048x2048,2,True,True,True,False,"Corrupt/unreadable: corrupted tile @ (0, 0, 1024, 512, 0) cannot be reshaped from (129956,) to (1, 512, 512, 2)"
