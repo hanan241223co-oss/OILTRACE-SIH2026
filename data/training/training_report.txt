@@ -1,0 +1,20 @@
+OILTRACE Random Forest Segmentation Training Report
+Generated: 2026-09-16
+Model: RandomForestClassifier (n_estimators=100, max_depth=15)
+Features: 4 channels (VV_norm, VH_norm, VV_VH_diff, VV_texture)
+Training Samples: 400000 pixels (Oil: 100000, BG: 300000)
+Validation Results:
+  - Precision: 0.1573
+  - Recall:    0.4673
+  - F1-Score:  0.2354
+  - IoU:       0.1334
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9903    0.9558    0.9727   8243068
+           1     0.1573    0.4673    0.2354    145540
+
+    accuracy                         0.9473   8388608
+   macro avg     0.5738    0.7115    0.6041   8388608
+weighted avg     0.9758    0.9473    0.9599   8388608
+

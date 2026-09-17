@@ -1,0 +1,64 @@
+======================================================================
+OILTRACE DATASET QUALITY CONTROL REPORT
+======================================================================
+Generated: 2026-09-16 23:11:00
+Working Directory: D:\OILTRACE\data
+
+1. IMAGE INVENTORY & QUALITY SUMMARY
+----------------------------------------------------------------------
+Total Images Scanned: 12
+  - Total Valid Images: 11
+  - Total Invalid / Incomplete Images: 1
+
+By Class:
+  * oil_spill:
+      - Total scanned: 10
+      - Valid (2048x2048x2, Float32, VV+VH, GeoTIFF, Valid Mask): 9
+      - Invalid / Corrupt: 1
+        (00011.tif: Partial transfer ~26.7 MB / corrupted tile)
+  * no_oil:
+      - Total scanned: 0
+      - Valid: 0
+      - Missing images: 50 target images pending download
+  * look_alike:
+      - Total scanned: 2
+      - Valid (2048x2048x2, Float32, VV+VH, GeoTIFF, Valid Mask): 2
+        (00000.tif, 00090.tif)
+      - Invalid / Corrupt: 0
+
+2. GROUND-TRUTH MASK INVENTORY
+----------------------------------------------------------------------
+All masks are verified 2048x2048 uint8 single-channel benchmark rasters:
+  - oil_spill masks present: 1200
+  - no_oil masks present: 685
+  - look_alike masks present: 685
+  - Total masks available: 2570
+
+3. SENSOR & RADIOMETRIC SPECIFICATIONS (VERIFIED)
+----------------------------------------------------------------------
+  - Sensor: Sentinel-1 SAR C-band IW mode
+  - Format: Cloud Optimized / Tiled GeoTIFF (512x512 tile size)
+  - Data Type: Float32 (IEEE Floating Point)
+  - Dimensions: 2048 x 2048 pixels
+  - Channels: 2
+      * Channel 0: VV Sigma0 in decibels (dB), typ range [-54.1 dB, -2.0 dB]
+      * Channel 1: VH Sigma0 in decibels (dB), typ range [-38.2 dB, +5.5 dB]
+  - Georeferencing:
+      * SAR Images: ModelTransformationTag + GeoKeyDirectoryTag (EPSG:4326 WGS 84)
+      * Masks: Pixel-aligned masks (EPSG unreferenced benchmark format)
+
+4. INVALID / EXCLUDED FILES
+----------------------------------------------------------------------
+  - D:\OILTRACE\data\images\oil_spill\Oil\00011.tif:
+    Reason: Corrupted tile at (0, 0, 1024, 512, 0). Incomplete download from interrupted session.
+    Action: Flagged as valid=False in dataset_manifest.csv. Excluded from training/validation pipelines.
+
+5. DATASET TARGET STATUS
+----------------------------------------------------------------------
+  - Target subset: 50 oil_spill, 50 no_oil, 50 look_alike (150 total)
+  - Currently Verified Valid Images: 11 (9 oil_spill, 2 look_alike, 0 no_oil)
+  - Status: Upstream Zenodo servers are returning 504 Gateway Time-out / Cloudflare 403.
+  - Policy: Complete preprocessing, feature extraction, dataset generation, model architecture,
+            OTB integration, and inference pipeline will be built and smoke-tested on all 11
+            verified images without fabricating metrics or data.
+======================================================================

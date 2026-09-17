@@ -1,0 +1,34 @@
+﻿# OILTRACE Feature Engineering Report
+Generated: 2026-09-16 23:15:00
+Location: D:\OILTRACE\data\processed\features\
+
+======================================================================
+ENGINEERED FEATURES SPECIFICATION
+======================================================================
+
+1. Feature: Normalized VV Backscatter (vv_norm)
+   - Purpose: Primary radar backscatter channel. Oil slicks dampen surface capillary waves, resulting in reduced radar backscatter (dark patches) in co-polarized VV channel.
+   - Datatype: Float32
+   - Dimensions: 2048 x 2048
+   - Transformation: Non-physical outlier clipping [-50 dB, +5 dB], followed by linear min-max scaling to [0, 1] relative to marine baseline [-45 dB, 0 dB].
+
+2. Feature: Normalized VH Backscatter (vh_norm)
+   - Purpose: Cross-polarized backscatter channel. Provides volume and depolarizing surface information, useful for differentiating oil slicks from ship wakes, biogenic films, and low wind zones.
+   - Datatype: Float32
+   - Dimensions: 2048 x 2048
+   - Transformation: Clipping [-50 dB, +5 dB], followed by linear min-max scaling to [0, 1] relative to marine baseline [-45 dB, 0 dB].
+
+3. Feature: Cross-Polarization Difference / Ratio (diff_norm)
+   - Purpose: Linear power ratio (sigma0_vv / sigma0_vh), which corresponds to subtraction in logarithmic decibel scale: VV_dB - VH_dB. Distinguishes mineral oil slicks from natural look-alikes due to differences in dielectric constant and surface roughness reduction.
+   - Datatype: Float32
+   - Dimensions: 2048 x 2048
+   - Transformation: (VV_dB - VH_dB), clipped and normalized to [0, 1].
+
+4. Feature: Local Backscatter Texture / StdDev (vv_std_norm)
+   - Purpose: Captures local boundary damping and edge sharpness. True oil slicks exhibit distinct sharp edges and ultra-low internal variance compared to surrounding ocean sea clutter.
+   - Datatype: Float32
+   - Dimensions: 2048 x 2048
+   - Transformation: 5x5 moving window local standard deviation over normalized VV, scaled to [0, 1].
+
+Output Format: 4-band Float32 GeoTIFF stacked as (H, W, 4).
+======================================================================

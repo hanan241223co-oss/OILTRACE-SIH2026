@@ -1,0 +1,27 @@
+OILTRACE TEST EVALUATION REPORT
+Model: D:\OILTRACE\models\best_model.joblib
+Test dataset: D:\OILTRACE\data\training\test\test_data.npz
+Total pixels evaluated: 8,388,608
+Oil pixels in ground truth: 62,520 (0.75%)
+Predicted oil pixels: 2,598,940
+
+Metrics (Positive Class: Oil Spill):
+  - Precision: 0.0014
+  - Recall:    0.0566
+  - F1-Score:  0.0027
+  - IoU:       0.0013
+
+Confusion Matrix (TN, FP / FN, TP):
+[[5730686 2595402]
+ [  58982    3538]]
+
+Full Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9898    0.6883    0.8120   8326088
+           1     0.0014    0.0566    0.0027     62520
+
+    accuracy                         0.6836   8388608
+   macro avg     0.4956    0.3724    0.4073   8388608
+weighted avg     0.9824    0.6836    0.8059   8388608
+

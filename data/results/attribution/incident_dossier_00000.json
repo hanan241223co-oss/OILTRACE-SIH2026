@@ -1,0 +1,99 @@
+{
+  "dossier_id": "OILTRACE-INCIDENT-20260917-154850",
+  "generated_utc": "2026-09-17T15:48:50.684998Z",
+  "pipeline_version": "OILTRACE-SIH2026-v1.0",
+  "data_provenance": {
+    "sar_imagery": "Sentinel-1 C-band SAR IW Mode (Real)",
+    "detection_algorithm": "Supervised Random Forest (4-band Polarimetric Features)",
+    "drift_model": "2D Lagrangian Particle Transport with Coriolis Deflection (Simulated Engine)",
+    "drift_forcings": "Standard Regional Marine Climatology (Simulated / Non-real-time)",
+    "ais_data": "Synthetic Test Corridor Traffic (External Real AIS Feed Blocked/Pending)"
+  },
+  "sar_detection_summary": {
+    "total_slick_components": 1222,
+    "total_estimated_area_km2": 91.76,
+    "primary_slick": {
+      "component_id": 1,
+      "pixel_count": 1288312,
+      "area_km2": 73.6176,
+      "centroid_lon_lat": [
+        4.035056437425546,
+        55.24342263443368
+      ],
+      "bounding_box": [
+        [
+          3.9656639450910203,
+          55.150079944057154
+        ],
+        [
+          4.118557206448163,
+          55.33396508271642
+        ]
+      ]
+    }
+  },
+  "drift_analysis": {
+    "hindcast_available": true,
+    "estimated_origin_coords": [
+      3.836424,
+      55.170681
+    ],
+    "hindcast_duration_hours": 12.0,
+    "forecast_available": true,
+    "projected_impact_coords_12h": [
+      4.23393,
+      55.315318
+    ]
+  },
+  "vessel_attribution_summary": {
+    "evaluated_candidates_count": 4,
+    "real_ais_verified": false,
+    "legal_disclaimer": "Attribution ranking represents geometric & kinematic correlation for investigation triage; does not constitute legal proof of liability.",
+    "priority_vessels": [
+      {
+        "mmsi": 244123000,
+        "vessel_name": "SYNTHETIC_TANKER_ALPHA",
+        "vessel_type": "Crude Oil Tanker",
+        "distance_to_spill_km": 2.1,
+        "distance_to_drift_track_km": 0.73,
+        "sog_knots": 11.4,
+        "cog_degrees": 45.0,
+        "attribution_score": 98.2,
+        "data_provenance": "SYNTHETIC_TEST_DATA",
+        "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 0.7km, Category Crude Oil Tanker, SOG 11.4 kts"
+      },
+      {
+        "mmsi": 219001000,
+        "vessel_name": "SYNTHETIC_CHEM_BETA",
+        "vessel_type": "Chemical Tanker",
+        "distance_to_spill_km": 4.19,
+        "distance_to_drift_track_km": 1.45,
+        "sog_knots": 12.1,
+        "cog_degrees": 50.0,
+        "attribution_score": 96.5,
+        "data_provenance": "SYNTHETIC_TEST_DATA",
+        "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 1.5km, Category Chemical Tanker, SOG 12.1 kts"
+      },
+      {
+        "mmsi": 211987000,
+        "vessel_name": "SYNTHETIC_CARGO_GAMMA",
+        "vessel_type": "General Cargo",
+        "distance_to_spill_km": 8.38,
+        "distance_to_drift_track_km": 8.38,
+        "sog_knots": 13.8,
+        "cog_degrees": 60.0,
+        "attribution_score": 73.6,
+        "data_provenance": "SYNTHETIC_TEST_DATA",
+        "evidence_summary": "[SYNTHETIC_TEST_DATA] Proximity 8.4km, Category General Cargo, SOG 13.8 kts"
+      }
+    ]
+  },
+  "fusion_confidence": {
+    "overall_confidence_score": 0.8,
+    "scale": "0.0 (Uncertain) to 1.0 (Highly Confident / Multi-sensor Verified)",
+    "data_gaps": [
+      "Real-world dynamic ocean current & wind observation feeds pending integration",
+      "Live/archive AIS transponder stream pending external API key / provider access"
+    ]
+  }
+}

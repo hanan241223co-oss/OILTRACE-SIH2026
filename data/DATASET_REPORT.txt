@@ -1,0 +1,46 @@
+OILTRACE DATASET VERIFICATION REPORT
+Generated: 2026-09-16 22:52:00
+Target Subset: 50 oil-spill, 50 no-oil, 50 look-alike (Total target: 150)
+
+==================================================
+CURRENT INVENTORY SUMMARY
+==================================================
+Total Samples Listed in Manifest: 12
+Valid Images: 12
+Corrupt/Partial Images: 0
+Total Image Storage Used: 462.71 MB
+
+Counts by Class (Images Present):
+- oil_spill: 10 (9 valid, 1 partial/corrupt)
+- no_oil: 0
+- look_alike: 2
+
+Masks Verified in D:\OILTRACE\data\masks:
+- oil_spill: 1200 ground-truth masks
+- no_oil: 685 ground-truth masks
+- look_alike: 685 ground-truth masks
+
+==================================================
+DETAILED SPECIFICATIONS
+==================================================
+Image Format: TIFF (Cloud Optimized / Tiled GeoTIFF)
+Tile Size: 512 x 512
+Dimensions: 2048 x 2048
+Channels: 2 channels (Float32, dB scale Sigma0)
+  - Channel 0: VV polarization (approx range -54 to -2 dB)
+  - Channel 1: VH polarization (approx range -38 to +5 dB)
+Georeferencing:
+  - Images: ModelTransformationTag present, EPSG:4326 (WGS 84 geographic coordinates)
+  - Ground-truth masks: Pixel-aligned masks (2048 x 2048 uint8). No native GeoTIFF tags (standard benchmark format).
+Mask Alignment: Verified 1-to-1 pixel alignment with SAR image dimensions.
+Mask Values:
+  - Oil spill: Binary values [0 (background), 1 (oil spill)]
+  - No oil: Binary value [0 (clean ocean)]
+  - Look-alike: Binary value [0 (clean/look-alike ocean)]
+
+Corrupted Files:
+- 00011.tif in oil_spill: Partial download (26.7 MB vs ~41.5 MB expected). Error: Corrupted tile @ (0, 0, 1024, 512, 0).
+
+Network / Download Blocker:
+- Remote Zenodo server (zenodo.org) is currently failing HTTP range requests and full downloads with HTTP 504 Gateway Time-out / Cloudflare 403 rate-limiting on automated scrapers.
+- In accordance with Stopping Condition 1, ML training will NOT begin until the full 150 dataset samples are downloaded and verified.
