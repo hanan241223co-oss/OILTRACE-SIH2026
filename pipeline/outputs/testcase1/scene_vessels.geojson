@@ -1,0 +1,2492 @@
+{
+  "type": "FeatureCollection",
+  "name": "detected_vessel_targets",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.154784,
+          33.728286
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_001",
+        "pixel_x": 406.21,
+        "pixel_y": 15.68,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 1.68,
+        "pixel_area": 63,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.156628,
+          33.728122
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_002",
+        "pixel_x": 389.1,
+        "pixel_y": 17.31,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -1.68,
+        "pixel_area": 71,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.196352,
+          33.726762
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_003",
+        "pixel_x": 20.88,
+        "pixel_y": 28.19,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -7.72,
+        "pixel_area": 26,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113969,
+          33.718882
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_004",
+        "pixel_x": 783.23,
+        "pixel_y": 124.11,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -1.7,
+        "pixel_area": 75,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.133209,
+          33.714356
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_005",
+        "pixel_x": 604.39,
+        "pixel_y": 172.35,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 1.26,
+        "pixel_area": 155,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.154261,
+          33.714249
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_006",
+        "pixel_x": 409.31,
+        "pixel_y": 171.38,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -3.16,
+        "pixel_area": 32,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.155434,
+          33.71409
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_007",
+        "pixel_x": 398.42,
+        "pixel_y": 173.02,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -4.34,
+        "pixel_area": 43,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.142663,
+          33.713657
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_008",
+        "pixel_x": 516.71,
+        "pixel_y": 179.14,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.47,
+        "pixel_area": 94,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194567,
+          33.710931
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_009",
+        "pixel_x": 35.4,
+        "pixel_y": 203.92,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 237,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13013,
+          33.707793
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_010",
+        "pixel_x": 632.13,
+        "pixel_y": 245.43,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 2.93,
+        "pixel_area": 53,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.132162,
+          33.707641
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_011",
+        "pixel_x": 613.29,
+        "pixel_y": 246.91,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -0.06,
+        "pixel_area": 35,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.157141,
+          33.705909
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_012",
+        "pixel_x": 381.59,
+        "pixel_y": 263.56,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.21,
+        "pixel_area": 90,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145585,
+          33.705881
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_013",
+        "pixel_x": 488.68,
+        "pixel_y": 265.06,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -2.32,
+        "pixel_area": 111,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.132534,
+          33.697417
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_014",
+        "pixel_x": 608.59,
+        "pixel_y": 360.24,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 49,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.134018,
+          33.697326
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_015",
+        "pixel_x": 594.83,
+        "pixel_y": 361.1,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 3.59,
+        "pixel_area": 80,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.123004,
+          33.696318
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_016",
+        "pixel_x": 696.78,
+        "pixel_y": 373.39,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 2.67,
+        "pixel_area": 46,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.150405,
+          33.695395
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_017",
+        "pixel_x": 442.71,
+        "pixel_y": 380.83,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -5.8,
+        "pixel_area": 76,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.148482,
+          33.695368
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_018",
+        "pixel_x": 460.53,
+        "pixel_y": 381.33,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -6.73,
+        "pixel_area": 45,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112533,
+          33.687768
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_019",
+        "pixel_x": 792.81,
+        "pixel_y": 469.25,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 384,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.141738,
+          33.687214
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_020",
+        "pixel_x": 522.04,
+        "pixel_y": 472.44,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 168,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.128156,
+          33.687147
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_021",
+        "pixel_x": 647.92,
+        "pixel_y": 474.56,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -1.66,
+        "pixel_area": 25,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.129243,
+          33.686899
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_022",
+        "pixel_x": 637.82,
+        "pixel_y": 477.2,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -0.87,
+        "pixel_area": 44,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.120946,
+          33.679587
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_023",
+        "pixel_x": 713.84,
+        "pixel_y": 559.11,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.02,
+        "pixel_area": 140,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.136403,
+          33.679586
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_024",
+        "pixel_x": 570.56,
+        "pixel_y": 557.57,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -0.58,
+        "pixel_area": 122,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.152862,
+          33.678756
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_025",
+        "pixel_x": 417.88,
+        "pixel_y": 565.08,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 1.08,
+        "pixel_area": 200,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.107488,
+          33.676942
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_026",
+        "pixel_x": 838.29,
+        "pixel_y": 589.79,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 2.39,
+        "pixel_area": 229,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194314,
+          33.666885
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_027",
+        "pixel_x": 32.09,
+        "pixel_y": 692.34,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.97,
+        "pixel_area": 297,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.144957,
+          33.667224
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_028",
+        "pixel_x": 489.74,
+        "pixel_y": 693.76,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 1.6,
+        "pixel_area": 141,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.159555,
+          33.667094
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_029",
+        "pixel_x": 354.38,
+        "pixel_y": 693.69,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 2.77,
+        "pixel_area": 141,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.125755,
+          33.66636
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_030",
+        "pixel_x": 667.66,
+        "pixel_y": 705.29,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 113,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.109701,
+          33.666165
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_031",
+        "pixel_x": 816.49,
+        "pixel_y": 709.07,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -0.47,
+        "pixel_area": 207,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13702,
+          33.661832
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_032",
+        "pixel_x": 562.67,
+        "pixel_y": 754.36,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.55,
+        "pixel_area": 199,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149992,
+          33.65732
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_033",
+        "pixel_x": 441.84,
+        "pixel_y": 803.06,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 463,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.115349,
+          33.653106
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_034",
+        "pixel_x": 762.56,
+        "pixel_y": 853.29,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 431,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.147942,
+          33.648106
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_035",
+        "pixel_x": 459.72,
+        "pixel_y": 905.44,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -0.17,
+        "pixel_area": 39,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.146865,
+          33.647713
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_036",
+        "pixel_x": 469.66,
+        "pixel_y": 909.89,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -6.18,
+        "pixel_area": 38,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.133758,
+          33.647291
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_037",
+        "pixel_x": 591.15,
+        "pixel_y": 915.92,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 123,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.126118,
+          33.638104
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_038",
+        "pixel_x": 660.89,
+        "pixel_y": 1018.56,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 4.37,
+        "pixel_area": 261,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.068014,
+          33.638317
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_039",
+        "pixel_x": 1199.79,
+        "pixel_y": 1021.92,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 1.21,
+        "pixel_area": 219,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.141278,
+          33.636236
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_040",
+        "pixel_x": 520.06,
+        "pixel_y": 1037.73,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 0.5,
+        "pixel_area": 105,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.076816,
+          33.625547
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_041",
+        "pixel_x": 1116.68,
+        "pixel_y": 1162.66,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 351,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.06741,
+          33.616191
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_042",
+        "pixel_x": 1202.86,
+        "pixel_y": 1267.3,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 182,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.106059,
+          33.604213
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_043",
+        "pixel_x": 842.91,
+        "pixel_y": 1396.35,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 3.87,
+        "pixel_area": 244,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1417,
+          33.595697
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_044",
+        "pixel_x": 511.19,
+        "pixel_y": 1487.19,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": -2.26,
+        "pixel_area": 81,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.128886,
+          33.582788
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_045",
+        "pixel_x": 628.52,
+        "pixel_y": 1631.62,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 2.3,
+        "pixel_area": 256,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11758,
+          33.563814
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_046",
+        "pixel_x": 731.18,
+        "pixel_y": 1843.14,
+        "peak_vv_db": 5.0,
+        "peak_vh_db": 5.0,
+        "pixel_area": 134,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.197665,
+          33.692581
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_047",
+        "pixel_x": 4.33,
+        "pixel_y": 407.06,
+        "peak_vv_db": 2.65,
+        "peak_vh_db": -4.31,
+        "pixel_area": 52,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14534,
+          33.70634
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_048",
+        "pixel_x": 491.0,
+        "pixel_y": 260.0,
+        "peak_vv_db": 2.64,
+        "peak_vh_db": -22.01,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.125532,
+          33.704988
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_049",
+        "pixel_x": 674.4,
+        "pixel_y": 277.0,
+        "peak_vv_db": 2.53,
+        "peak_vh_db": -17.18,
+        "pixel_area": 20,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15048,
+          33.658854
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_050",
+        "pixel_x": 437.5,
+        "pixel_y": 786.0,
+        "peak_vv_db": 2.44,
+        "peak_vh_db": -25.54,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112766,
+          33.686526
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_051",
+        "pixel_x": 790.5,
+        "pixel_y": 483.0,
+        "peak_vv_db": 2.23,
+        "peak_vh_db": -19.3,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113284,
+          33.689046
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_052",
+        "pixel_x": 786.0,
+        "pixel_y": 455.0,
+        "peak_vv_db": 2.23,
+        "peak_vh_db": -22.69,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145111,
+          33.70535
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_053",
+        "pixel_x": 493.0,
+        "pixel_y": 271.0,
+        "peak_vv_db": 2.02,
+        "peak_vh_db": -24.68,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190468,
+          33.707006
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_054",
+        "pixel_x": 72.88,
+        "pixel_y": 247.88,
+        "peak_vv_db": 1.89,
+        "peak_vh_db": -9.7,
+        "pixel_area": 8,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11456,
+          33.687592
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_055",
+        "pixel_x": 774.0,
+        "pixel_y": 471.0,
+        "peak_vv_db": 1.88,
+        "peak_vh_db": -21.28,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11334,
+          33.689226
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_056",
+        "pixel_x": 785.5,
+        "pixel_y": 453.0,
+        "peak_vv_db": 1.71,
+        "peak_vh_db": -26.33,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.150483,
+          33.659034
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_057",
+        "pixel_x": 437.5,
+        "pixel_y": 784.0,
+        "peak_vv_db": 1.21,
+        "peak_vh_db": -23.28,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.150567,
+          33.659281
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_058",
+        "pixel_x": 436.75,
+        "pixel_y": 781.25,
+        "peak_vv_db": 1.19,
+        "peak_vh_db": -24.78,
+        "pixel_area": 4,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.139968,
+          33.60545
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_059",
+        "pixel_x": 528.44,
+        "pixel_y": 1379.22,
+        "peak_vv_db": 0.81,
+        "peak_vh_db": -23.99,
+        "pixel_area": 9,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.106593,
+          33.676209
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_060",
+        "pixel_x": 846.5,
+        "pixel_y": 598.0,
+        "peak_vv_db": 0.7,
+        "peak_vh_db": -19.31,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112764,
+          33.686345
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_061",
+        "pixel_x": 790.5,
+        "pixel_y": 485.0,
+        "peak_vv_db": 0.62,
+        "peak_vh_db": -23.33,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113343,
+          33.689406
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_062",
+        "pixel_x": 785.5,
+        "pixel_y": 451.0,
+        "peak_vv_db": 0.61,
+        "peak_vh_db": -21.74,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.102524,
+          33.635687
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_063",
+        "pixel_x": 879.43,
+        "pixel_y": 1047.71,
+        "peak_vv_db": 0.39,
+        "peak_vh_db": -24.84,
+        "pixel_area": 7,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194727,
+          33.711644
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_064",
+        "pixel_x": 34.0,
+        "pixel_y": 196.0,
+        "peak_vv_db": 0.38,
+        "peak_vh_db": -23.26,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112654,
+          33.686166
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_065",
+        "pixel_x": 791.5,
+        "pixel_y": 487.0,
+        "peak_vv_db": 0.26,
+        "peak_vh_db": -24.8,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114629,
+          33.651155
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_066",
+        "pixel_x": 769.0,
+        "pixel_y": 875.0,
+        "peak_vv_db": 0.01,
+        "peak_vh_db": -16.5,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.115378,
+          33.654846
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_067",
+        "pixel_x": 762.5,
+        "pixel_y": 834.0,
+        "peak_vv_db": -0.14,
+        "peak_vh_db": -17.29,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145397,
+          33.706519
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_068",
+        "pixel_x": 490.5,
+        "pixel_y": 258.0,
+        "peak_vv_db": -0.21,
+        "peak_vh_db": -28.04,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145109,
+          33.705169
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_069",
+        "pixel_x": 493.0,
+        "pixel_y": 273.0,
+        "peak_vv_db": -0.26,
+        "peak_vh_db": -31.68,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.104784,
+          33.600768
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_070",
+        "pixel_x": 854.33,
+        "pixel_y": 1434.67,
+        "peak_vv_db": -0.34,
+        "peak_vh_db": -19.74,
+        "pixel_area": 3,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.160779,
+          33.709249
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_071",
+        "pixel_x": 348.29,
+        "pixel_y": 226.14,
+        "peak_vv_db": -0.45,
+        "peak_vh_db": -23.16,
+        "pixel_area": 7,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11499,
+          33.687498
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_072",
+        "pixel_x": 770.0,
+        "pixel_y": 472.0,
+        "peak_vv_db": -0.47,
+        "peak_vh_db": -28.65,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114775,
+          33.687545
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_073",
+        "pixel_x": 772.0,
+        "pixel_y": 471.5,
+        "peak_vv_db": -0.51,
+        "peak_vh_db": -23.06,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.085537,
+          33.730328
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_074",
+        "pixel_x": 1048.0,
+        "pixel_y": 0.0,
+        "peak_vv_db": -0.56,
+        "peak_vh_db": -13.47,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114573,
+          33.650975
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_075",
+        "pixel_x": 769.5,
+        "pixel_y": 877.0,
+        "peak_vv_db": -0.72,
+        "peak_vh_db": -17.98,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14973,
+          33.655163
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_076",
+        "pixel_x": 444.0,
+        "pixel_y": 827.0,
+        "peak_vv_db": -0.73,
+        "peak_vh_db": -23.26,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13934,
+          33.605273
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_077",
+        "pixel_x": 534.25,
+        "pixel_y": 1381.25,
+        "peak_vv_db": -0.75,
+        "peak_vh_db": -24.33,
+        "pixel_area": 4,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.106536,
+          33.67603
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_078",
+        "pixel_x": 847.0,
+        "pixel_y": 600.0,
+        "peak_vv_db": -0.79,
+        "peak_vh_db": -19.76,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.146961,
+          33.657759
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_079",
+        "pixel_x": 470.0,
+        "pixel_y": 798.5,
+        "peak_vv_db": -0.81,
+        "peak_vh_db": -23.43,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.147391,
+          33.657665
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_080",
+        "pixel_x": 466.0,
+        "pixel_y": 799.5,
+        "peak_vv_db": -0.81,
+        "peak_vh_db": -26.51,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.147567,
+          33.695271
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_081",
+        "pixel_x": 469.0,
+        "pixel_y": 382.5,
+        "peak_vv_db": -0.96,
+        "peak_vh_db": -18.31,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149268,
+          33.695379
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_082",
+        "pixel_x": 453.25,
+        "pixel_y": 381.12,
+        "peak_vv_db": -0.99,
+        "peak_vh_db": -10.77,
+        "pixel_area": 8,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.147177,
+          33.657757
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_083",
+        "pixel_x": 468.0,
+        "pixel_y": 798.5,
+        "peak_vv_db": -1.1,
+        "peak_vh_db": -22.76,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.115434,
+          33.655026
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_084",
+        "pixel_x": 762.0,
+        "pixel_y": 832.0,
+        "peak_vv_db": -1.12,
+        "peak_vh_db": -20.76,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.115437,
+          33.655206
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_085",
+        "pixel_x": 762.0,
+        "pixel_y": 830.0,
+        "peak_vv_db": -1.31,
+        "peak_vh_db": -19.57,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149728,
+          33.654982
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_086",
+        "pixel_x": 444.0,
+        "pixel_y": 829.0,
+        "peak_vv_db": -1.32,
+        "peak_vh_db": -27.36,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.104931,
+          33.601053
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_087",
+        "pixel_x": 853.0,
+        "pixel_y": 1431.5,
+        "peak_vv_db": -1.33,
+        "peak_vh_db": -18.6,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.121803,
+          33.680401
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_088",
+        "pixel_x": 706.0,
+        "pixel_y": 550.0,
+        "peak_vv_db": -1.4,
+        "peak_vh_db": -22.82,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.12157,
+          33.679051
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_089",
+        "pixel_x": 708.0,
+        "pixel_y": 565.0,
+        "peak_vv_db": -1.4,
+        "peak_vh_db": -24.56,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194383,
+          33.710114
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_090",
+        "pixel_x": 37.0,
+        "pixel_y": 213.0,
+        "peak_vv_db": -1.41,
+        "peak_vh_db": -23.99,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112597,
+          33.685986
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_091",
+        "pixel_x": 792.0,
+        "pixel_y": 489.0,
+        "peak_vv_db": -1.46,
+        "peak_vh_db": -25.91,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.150655,
+          33.659844
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_092",
+        "pixel_x": 436.0,
+        "pixel_y": 775.0,
+        "peak_vv_db": -1.47,
+        "peak_vh_db": -24.51,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.152774,
+          33.656938
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_093",
+        "pixel_x": 416.0,
+        "pixel_y": 807.0,
+        "peak_vv_db": -1.48,
+        "peak_vh_db": -25.01,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.121913,
+          33.680581
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_094",
+        "pixel_x": 705.0,
+        "pixel_y": 548.0,
+        "peak_vv_db": -1.54,
+        "peak_vh_db": -29.32,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1575,
+          33.727961
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_095",
+        "pixel_x": 381.0,
+        "pixel_y": 19.0,
+        "peak_vv_db": -1.56,
+        "peak_vh_db": -28.26,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145106,
+          33.704989
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_096",
+        "pixel_x": 493.0,
+        "pixel_y": 275.0,
+        "peak_vv_db": -1.59,
+        "peak_vh_db": -26.57,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149733,
+          33.655343
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_097",
+        "pixel_x": 444.0,
+        "pixel_y": 825.0,
+        "peak_vv_db": -1.61,
+        "peak_vh_db": -25.94,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.146531,
+          33.657853
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_098",
+        "pixel_x": 474.0,
+        "pixel_y": 797.5,
+        "peak_vv_db": -1.63,
+        "peak_vh_db": -29.39,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113479,
+          33.687421
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_099",
+        "pixel_x": 784.0,
+        "pixel_y": 473.0,
+        "peak_vv_db": -1.65,
+        "peak_vh_db": -19.08,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149889,
+          33.658949
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_100",
+        "pixel_x": 443.0,
+        "pixel_y": 785.0,
+        "peak_vv_db": -1.68,
+        "peak_vh_db": -26.26,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.149618,
+          33.654803
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_101",
+        "pixel_x": 445.0,
+        "pixel_y": 831.0,
+        "peak_vv_db": -1.68,
+        "peak_vh_db": -27.44,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114517,
+          33.650796
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_102",
+        "pixel_x": 770.0,
+        "pixel_y": 879.0,
+        "peak_vv_db": -1.73,
+        "peak_vh_db": -18.45,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.146746,
+          33.657806
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_103",
+        "pixel_x": 472.0,
+        "pixel_y": 798.0,
+        "peak_vv_db": -1.82,
+        "peak_vh_db": -24.77,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19473,
+          33.711824
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_104",
+        "pixel_x": 34.0,
+        "pixel_y": 194.0,
+        "peak_vv_db": -1.91,
+        "peak_vh_db": -28.69,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.145453,
+          33.706699
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_105",
+        "pixel_x": 490.0,
+        "pixel_y": 256.0,
+        "peak_vv_db": -1.91,
+        "peak_vh_db": -26.43,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.189224,
+          33.695439
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_106",
+        "pixel_x": 82.93,
+        "pixel_y": 376.27,
+        "peak_vv_db": -1.92,
+        "peak_vh_db": -8.84,
+        "pixel_area": 15,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113399,
+          33.689586
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_107",
+        "pixel_x": 785.0,
+        "pixel_y": 449.0,
+        "peak_vv_db": -1.92,
+        "peak_vh_db": -25.78,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.156848,
+          33.727606
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_108",
+        "pixel_x": 387.0,
+        "pixel_y": 23.0,
+        "peak_vv_db": -1.94,
+        "peak_vh_db": -22.87,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.150653,
+          33.659664
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_109",
+        "pixel_x": 436.0,
+        "pixel_y": 777.0,
+        "peak_vv_db": -2.0,
+        "peak_vh_db": -24.71,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.131492,
+          33.707685
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_110",
+        "pixel_x": 619.5,
+        "pixel_y": 246.5,
+        "peak_vv_db": -2.86,
+        "peak_vh_db": -10.34,
+        "pixel_area": 4,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.086094,
+          33.729523
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_111",
+        "pixel_x": 1042.75,
+        "pixel_y": 8.88,
+        "peak_vv_db": -3.14,
+        "peak_vh_db": -8.62,
+        "pixel_area": 8,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.131137,
+          33.707769
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_112",
+        "pixel_x": 622.8,
+        "pixel_y": 245.6,
+        "peak_vv_db": -3.48,
+        "peak_vh_db": -9.92,
+        "pixel_area": 5,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.100033,
+          33.730027
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_113",
+        "pixel_x": 913.67,
+        "pixel_y": 1.92,
+        "peak_vv_db": -4.23,
+        "peak_vh_db": -7.65,
+        "pixel_area": 12,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.077768,
+          33.626771
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_114",
+        "pixel_x": 1108.0,
+        "pixel_y": 1149.0,
+        "peak_vv_db": -4.95,
+        "peak_vh_db": -11.98,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.181764,
+          33.694858
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_115",
+        "pixel_x": 152.0,
+        "pixel_y": 383.5,
+        "peak_vv_db": -5.05,
+        "peak_vh_db": -11.42,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.132592,
+          33.696987
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_116",
+        "pixel_x": 608.0,
+        "pixel_y": 365.0,
+        "peak_vv_db": -6.07,
+        "peak_vh_db": -11.71,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194627,
+          33.665379
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_117",
+        "pixel_x": 29.0,
+        "pixel_y": 709.0,
+        "peak_vv_db": -7.65,
+        "peak_vh_db": -11.91,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.134844,
+          33.679471
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_118",
+        "pixel_x": 585.0,
+        "pixel_y": 559.0,
+        "peak_vv_db": -7.98,
+        "peak_vh_db": -11.69,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.117123,
+          33.564417
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_119",
+        "pixel_x": 735.5,
+        "pixel_y": 1836.5,
+        "peak_vv_db": -8.97,
+        "peak_vh_db": -11.14,
+        "pixel_area": 4,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.067876,
+          33.637679
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_120",
+        "pixel_x": 1201.0,
+        "pixel_y": 1029.0,
+        "peak_vv_db": -10.81,
+        "peak_vh_db": -10.25,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11718,
+          33.564687
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_121",
+        "pixel_x": 735.0,
+        "pixel_y": 1833.5,
+        "peak_vv_db": -10.82,
+        "peak_vh_db": -11.81,
+        "pixel_area": 2,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.074995,
+          33.624017
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_122",
+        "pixel_x": 1133.4,
+        "pixel_y": 1179.8,
+        "peak_vv_db": -11.96,
+        "peak_vh_db": -9.47,
+        "pixel_area": 5,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194511,
+          33.664839
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_123",
+        "pixel_x": 30.0,
+        "pixel_y": 715.0,
+        "peak_vv_db": -14.39,
+        "peak_vh_db": -11.38,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.076879,
+          33.624614
+        ]
+      },
+      "properties": {
+        "target_id": "vessel_124",
+        "pixel_x": 1116.0,
+        "pixel_y": 1173.0,
+        "peak_vv_db": -15.37,
+        "peak_vh_db": -11.64,
+        "pixel_area": 1,
+        "is_suspect_source": false,
+        "suppressed_shadow_pixels": 0
+      }
+    }
+  ]
+}

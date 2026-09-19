@@ -1,0 +1,29 @@
+{
+  "scene_id": "test3",
+  "pipeline_mode": "two_stage",
+  "model_path": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/models/best_obia_rf.joblib",
+  "decision_threshold": 0.6,
+  "execution_time_seconds": 22.23,
+  "vessel_masking": {
+    "vessels_detected": 300,
+    "shadow_pixels_masked": 0
+  },
+  "candidate_segmentation": {
+    "total_candidates": 1203,
+    "total_candidate_area_km2": 21.8696
+  },
+  "object_classification": {
+    "confirmed_slicks": 0,
+    "suppressed_lookalikes": 1203,
+    "confirmed_area_km2": 0
+  },
+  "deliverables": {
+    "mask_png": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/mask.png",
+    "spills_geojson": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/scene_spills.geojson",
+    "candidates_geojson": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/scene_candidates.geojson",
+    "result_json": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/result.json",
+    "detection_result_png": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/test3_detection_result.png",
+    "mask_overlay_png": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/test3_mask_overlay.png",
+    "probability_png": "/teamspace/studios/this_studio/OILTRACE-SIH2026/pipeline/outputs/testcase3/test3_probability.png"
+  }
+}

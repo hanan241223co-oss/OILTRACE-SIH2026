@@ -1,9 +1,34 @@
+# Byte compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments and local configurations
+.env
+.venv/
+venv/
+ENV/
+
+# Large binary geospatial arrays and default weights
 *.npz
 *.tif
 *.tiff
 *.joblib
-__pycache__/
 *.aux.xml
-.env
-.venv/
-venv/
+
+# Whitelist shipped sample SAR scene and trained OBIA model in pipeline/
+!pipeline/data/scene.tif
+!pipeline/models/best_obia_rf.joblib
+
+# Local agent artifacts, skills, and specification workflows
+.agents/
+AGENTS.md
+*/AGENTS.md
+CLAUDE.md
+*/CLAUDE.md
+skills-lock.json
+test-preferences.json
+
+# Local testing and evaluation sandbox
+testing/
